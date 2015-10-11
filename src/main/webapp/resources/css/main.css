@@ -1,0 +1,140 @@
+
+body {
+    font-size: x-large;
+    background-color: white;
+    color: darkslateblue;
+}
+
+.welcome{
+    color:lightblue;
+    font-size: xx-large;
+    text-align: center;
+    background-color: mediumslateblue;
+}
+
+.tableRow{
+    display: table-row;
+}
+
+.table{
+    display: table;
+}
+
+.rightBlock{
+    float: right;
+}
+.dataForm{
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login {
+    position: relative;
+    margin: auto;
+    padding: 30px 30px 30px;
+    width: 400px;
+    background: powderblue;
+    border-radius: 3px;
+}
+.langstyle{
+    float: right;
+    color: darkslateblue;
+}
+
+span.error {
+    color: red;
+    font-size: large;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+.info{
+    color: red;
+    font-size: medium;
+}
+
+span{
+    color:red;
+}
+
+table {
+    font-size: large;
+    width: 90%;
+    border-collapse: collapse;
+    table-layout: auto;
+    vertical-align: top;
+    margin-bottom: 15px;
+    border: 3px solid darkgrey;
+    text-align: center;
+}
+
+table thead th {
+    color: darkslateblue;
+    background-color: powderblue;
+    border: 3px solid darkgrey;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: auto;
+    vertical-align: middle;
+}
+
+table tbody td {
+    vertical-align: top;
+    border-collapse: collapse;
+    border-left: 3px solid darkgrey;
+    border-right: 3px solid darkgrey;
+color: darkslateblue;
+    text-align: center;
+}
+
+table thead th, table tbody td {
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tbody tr.light {
+    color: #666666;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+
+table tbody tr.dark {
+    color: #666666;
+    background-color: #E8E8E8;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: lightsteelblue;
+}
+
+li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 220px;
+    height: 50px;
+    font-weight: bold;
+    color: darkslateblue;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: powderblue;
+}
